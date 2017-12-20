@@ -13,3 +13,10 @@ def alpha_string46(s):
 
 print( alpha_string46("a234") )
 print( alpha_string46("2825") )
+
+'''<Clean Code>
+def alpha_string46(s):
+    return s.isdigit() and len(s) in [4, 6]
+
+print( alpha_string46("a234") )
+print( alpha_string46("1234") )'''
