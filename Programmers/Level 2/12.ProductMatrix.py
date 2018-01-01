@@ -1,6 +1,6 @@
-def productMatrix(A, B):
-    for i in range(len(B)):
-        for j in range(len(B)):
+# def productMatrix(A, B):
+#     for i in range(len(B)):
+#         for j in range(len(B)):
 
 
 
@@ -14,11 +14,13 @@ b = [[ 3, 4], [5, 6]];
 #     [ 2"10", 3"11" ]     [ 5"10", 6"11" ]
 # c = ["00"*"00" + "01"*"10", "00"*"01" + "01"*"11"]
 #     ["10"*"00" + "11"*"10", "10"*"01" + "11"*"11"]
-# matrixA = []
-# matrixB = []
-c = 0
-for i in range(len(b)):
-    for j in range(len(b)):
-        c += a[i][j] * b[j][i]
-        for k in range(len(b)):
-            c += a[i][k] * b[k][i]
+# # matrixA = []
+# # matrixB = []
+# c = 0
+# # if len(A[-1]) == len(B):
+# for i in range(len(b)):
+#     for j in range(len(b)):
+#         c += a[i][j] * b[j][i]
+#         for k in range(len(b)):
+#             c += a[i][k] * b[k][i]
+# for b[]
