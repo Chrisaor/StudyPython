@@ -7,4 +7,5 @@ for i in range(t):
     for j in range(int(n[1])):
         answer.append(max(arr))
         arr.remove(max(arr))
-    print(" ".join(str(i) for i in answer))
+        print(" ".join(str(i) for i in answer))
+        
